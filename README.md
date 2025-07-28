@@ -26,7 +26,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./assets/screenshot/Blog%20preview%20card.png)
-![](./assets/screenshot/Blog%20preview%20card%20-%20mobile.png)
 
 ### Links
 
