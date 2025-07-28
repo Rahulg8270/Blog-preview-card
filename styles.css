@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree',sans-serif;
+    font-size: 16px;
+}
+.preview-card{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 24%;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 18px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 black;
+}
+.preview-illustration{
+    width: 100%;
+    border-radius: 20px;
+}
+.preview-tag{
+    background-color: hsl(47, 88%, 63%);
+    width: max-content;
+    padding: 5px 10px;
+    font-weight: 900;
+    font-size: 0.8em;
+}
+.preview-title{
+    font-size: 1.5em;
+    font-weight: 800;
+    /* background-color: gray; */
+    display: inline-block;
+}
+.profile-figure{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    gap: 10px;
+}
+.profile-figure img{
+    width: 35px;
+}
+.profile-figure figcaption{
+    font-weight: 800;
+    font-size: 15px;
+}
+/* .preview-time{
+    
+} */
+.preview-description{
+    line-height: 1.5;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+
